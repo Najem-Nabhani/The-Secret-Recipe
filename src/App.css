@@ -1,0 +1,45 @@
+body{
+  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+}
+.App {
+  text-align: center;
+}
+
+.page-title {
+  color: limegreen;
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 64pt;
+  text-shadow:
+      -3px 3px 0 linen,
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 linen,
+      2px 2px 0 #000;
+}
+
+.recipe {
+  float: left;
+  height: 400px;
+  width: 650px;
+  margin: 10px;
+  margin-left: 45px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: darkgrey 10px 5px 10px 5px;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+.recipe-img {
+  float: left;
+  padding-left: 10px;
+  border-radius: 35px;
+  block-size:   6.7cm;
+}
+
+.recipe-inger{
+  height: 300px;
+  margin: 20px;
+  text-align: left;
+  overflow: auto;
+}
